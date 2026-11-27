@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Nairobi Matatu</title>
+  <meta name="theme-color" content="#142d22">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="game" aria-label="Nairobi Matatu playable road game"></canvas>
+
+  <div id="hud">
+    <div class="brand"><span>MATATU</span><strong>NAIROBI</strong></div>
+    <div id="objective">Checkpoint 1 / 5</div>
+    <div id="speed">0 km/h</div>
+  </div>
+
+  <div id="start" class="panel">
+    <div class="flag"></div>
+    <h1>Nairobi Matatu</h1>
+    <p>Follow the five Nairobi checkpoints.</p>
+    <button id="startButton">Start Drive</button>
+  </div>
+
+  <div id="complete" class="panel hidden">
+    <h1>Route Complete</h1>
+    <p id="finishTime"></p>
+    <button id="againButton">Drive Again</button>
+  </div>
+
+  <div id="controls">
+    <div class="steering">
+      <button data-key="left" aria-label="Steer left">A</button>
+      <button data-key="right" aria-label="Steer right">D</button>
+    </div>
+    <div class="pedals">
+      <button data-key="brake" aria-label="Brake">BRAKE</button>
+      <button data-key="up" aria-label="Accelerate">GO</button>
+    </div>
+  </div>
+
+  <div id="attribution">
+    © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> · ODbL
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>

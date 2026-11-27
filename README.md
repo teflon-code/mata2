@@ -24,3 +24,7 @@ A compact native Unity 3D arcade-driving game set in a stylized Nairobi CBD.
 Drive the green matatu through five checkpoint rings around central Nairobi. The HUD tracks speed, route progress, and elapsed time. Roads are generated from a compact local subset of OpenStreetMap centerline geometry; see `DATA_ATTRIBUTION.md`.
 
 The game is native and desktop-focused. It uses no browser runtime, online API, or third-party map SDK.
+
+## Browser version
+
+A self-contained browser mirror is served from `docs/` for GitHub Pages. It retains the same compact OSM road geometry and checkpoint route. Open the public GitHub Pages URL after Pages deployment is enabled.
