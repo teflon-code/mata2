@@ -1,0 +1,18 @@
+{
+  "type": "FeatureCollection",
+  "name": "Nairobi CBD compact road subset",
+  "copyright": "OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "source": "OpenStreetMap centerlines; https://www.openstreetmap.org/",
+  "features": [
+    {"type":"Feature","properties":{"name":"Uhuru Highway","lanes":4},"geometry":{"type":"LineString","coordinates":[[36.81700,-1.28500],[36.81675,-1.28620],[36.81635,-1.28755],[36.81595,-1.28920],[36.81555,-1.29110],[36.81515,-1.29320]]}},
+    {"type":"Feature","properties":{"name":"Moi Avenue","lanes":2},"geometry":{"type":"LineString","coordinates":[[36.82210,-1.28315],[36.82205,-1.28420],[36.82195,-1.28535],[36.82180,-1.28655],[36.82165,-1.28785],[36.82145,-1.28915]]}},
+    {"type":"Feature","properties":{"name":"Kenyatta Avenue","lanes":2},"geometry":{"type":"LineString","coordinates":[[36.81480,-1.28420],[36.81615,-1.28435],[36.81755,-1.28455],[36.81895,-1.28480],[36.82035,-1.28505],[36.82165,-1.28530]]}},
+    {"type":"Feature","properties":{"name":"Haile Selassie Avenue","lanes":4},"geometry":{"type":"LineString","coordinates":[[36.81460,-1.28990],[36.81635,-1.28955],[36.81815,-1.28935],[36.81990,-1.28920],[36.82170,-1.28910],[36.82320,-1.28900]]}},
+    {"type":"Feature","properties":{"name":"University Way","lanes":2},"geometry":{"type":"LineString","coordinates":[[36.81380,-1.28735],[36.81545,-1.28715],[36.81715,-1.28695],[36.81890,-1.28675],[36.82060,-1.28660],[36.82200,-1.28650]]}},
+    {"type":"Feature","properties":{"name":"Muindi Mbingu Street","lanes":2},"geometry":{"type":"LineString","coordinates":[[36.81810,-1.28345],[36.81800,-1.28465],[36.81790,-1.28585],[36.81770,-1.28715],[36.81755,-1.28845],[36.81740,-1.28960]]}},
+    {"type":"Feature","properties":{"name":"Mama Ngina Street","lanes":2},"geometry":{"type":"LineString","coordinates":[[36.81610,-1.28240],[36.81730,-1.28255],[36.81855,-1.28275],[36.81985,-1.28295],[36.82110,-1.28310]]}},
+    {"type":"Feature","properties":{"name":"Banda Street","lanes":2},"geometry":{"type":"LineString","coordinates":[[36.81955,-1.28345],[36.81945,-1.28465],[36.81935,-1.28585],[36.81920,-1.28710],[36.81905,-1.28835]]}},
+    {"type":"Feature","properties":{"name":"Accra Road","lanes":2},"geometry":{"type":"LineString","coordinates":[[36.82320,-1.29000],[36.82215,-1.28975],[36.82105,-1.28945],[36.81995,-1.28920],[36.81880,-1.28895]]}}
+  ]
+}
